@@ -1,0 +1,21 @@
+{"level":"error","message":"unhandledRejection","service":"identity-service","timestamp":"2025-03-18T18:05:45.573Z"}
+{"level":"error","message":"unhandledRejection","service":"identity-service","timestamp":"2025-03-18T18:05:45.573Z"}
+{"level":"error","message":"unhandledRejection","service":"identity-service","timestamp":"2025-03-18T18:09:07.045Z"}
+{"level":"error","message":"unhandledRejection","service":"identity-service","timestamp":"2025-03-18T18:09:07.045Z"}
+{"level":"error","message":"unhandledRejection","service":"identity-service","timestamp":"2025-03-18T18:11:13.843Z"}
+{"level":"error","message":"unhandledRejection","service":"identity-service","timestamp":"2025-03-18T18:11:13.843Z"}
+{"level":"error","message":"unhandledRejection","service":"identity-service","timestamp":"2025-03-18T18:11:49.417Z"}
+{"level":"error","message":"unhandledRejection","service":"identity-service","timestamp":"2025-03-18T18:11:49.417Z"}
+{"level":"error","message":"unhandledRejection","service":"identity-service","timestamp":"2025-03-18T18:13:58.258Z"}
+{"level":"error","message":"unhandledRejection","service":"identity-service","timestamp":"2025-03-18T18:13:58.258Z"}
+{"level":"error","message":"unhandledRejection","service":"identity-service","timestamp":"2025-03-18T18:14:23.221Z"}
+{"level":"error","message":"unhandledRejection","service":"identity-service","timestamp":"2025-03-18T18:14:23.221Z"}
+{"level":"error","message":"unhandledRejection","service":"identity-service","timestamp":"2025-03-18T18:15:40.640Z"}
+{"level":"error","message":"unhandledRejection","service":"identity-service","timestamp":"2025-03-18T18:15:40.641Z"}
+{"level":"error","message":"unhandledRejection","service":"identity-service","timestamp":"2025-03-18T18:18:05.080Z"}
+{"level":"error","message":"unhandledRejection","service":"identity-service","timestamp":"2025-03-18T18:18:05.080Z"}
+{"level":"error","message":"unhandledRejection","service":"identity-service","timestamp":"2025-03-18T18:19:09.360Z"}
+{"level":"error","message":"unhandledRejection","service":"identity-service","timestamp":"2025-03-18T18:19:09.360Z"}
+{"level":"error","message":"unhandledRejection","service":"identity-service","timestamp":"2025-03-18T18:19:16.801Z"}
+{"level":"error","message":"unhandledRejection","service":"identity-service","timestamp":"2025-03-18T18:19:16.801Z"}
+{"level":"error","message":"Error registering user expiresAt.getDate is not a function","service":"identity-service","stack":"TypeError: expiresAt.getDate is not a function\n    at generateTokens (file:///Users/ogoncharenko/Projects/social-media-microservices/identity-service/src/utils/generateToken.js:17:31)\n    at registerUser (file:///Users/ogoncharenko/Projects/social-media-microservices/identity-service/src/controllers/identityController.js:30:49)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-03-18T18:28:36.868Z"}
