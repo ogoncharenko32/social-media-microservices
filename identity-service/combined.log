@@ -125,3 +125,31 @@
 {"level":"info","message":"Request body: {\"refreshToken\":\"53c5e63609ce3612638be2785c9dd4d4b2e2686cb2680c219b3b2ef0305dbcbc1119f00bb9cc6988d6c1b2920051d893b5dde1dd4d8475b481231910fe84a7a7\"}","service":"identity-service","timestamp":"2025-03-19T00:24:28.025Z"}
 {"level":"info","message":"Refreshing token","service":"identity-service","timestamp":"2025-03-19T00:24:28.029Z"}
 {"level":"warn","message":"Refresh token not found or expired","service":"identity-service","timestamp":"2025-03-19T00:24:28.068Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-03-19T01:44:44.723Z"}
+{"level":"info","message":"Request body: {\"email\":\"yana@gmail.com\",\"password\":\"123456\"}","service":"identity-service","timestamp":"2025-03-19T01:44:44.733Z"}
+{"level":"info","message":"Logging in user","service":"identity-service","timestamp":"2025-03-19T01:44:44.747Z"}
+{"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-03-19T01:44:44.884Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-03-19T02:05:03.074Z"}
+{"level":"info","message":"Request body: {\"email\":\"yana@gmail.com\",\"password\":\"123456\"}","service":"identity-service","timestamp":"2025-03-19T02:05:03.078Z"}
+{"level":"info","message":"Logging in user","service":"identity-service","timestamp":"2025-03-19T02:05:03.090Z"}
+{"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-03-19T02:05:03.207Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-03-19T02:27:24.902Z"}
+{"level":"info","message":"Request body: {\"email\":\"yana@gmail.com\",\"password\":\"123456\"}","service":"identity-service","timestamp":"2025-03-19T02:27:24.910Z"}
+{"level":"info","message":"Logging in user","service":"identity-service","timestamp":"2025-03-19T02:27:24.923Z"}
+{"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-03-19T02:27:25.025Z"}
+{"level":"info","message":"Received POST request to /api/auth/refresh","service":"identity-service","timestamp":"2025-03-19T04:08:20.537Z"}
+{"level":"info","message":"Request body: {\"refreshToken\":\"53c5e63609ce3612638be2785c9dd4d4b2e2686cb2680c219b3b2ef0305dbcbc1119f00bb9cc6988d6c1b2920051d893b5dde1dd4d8475b481231910fe84a7a7\"}","service":"identity-service","timestamp":"2025-03-19T04:08:20.543Z"}
+{"level":"info","message":"Refreshing token","service":"identity-service","timestamp":"2025-03-19T04:08:20.563Z"}
+{"level":"warn","message":"Refresh token not found or expired","service":"identity-service","timestamp":"2025-03-19T04:08:20.916Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-03-19T04:08:24.119Z"}
+{"level":"info","message":"Request body: {\"email\":\"yana@gmail.com\",\"password\":\"123456\"}","service":"identity-service","timestamp":"2025-03-19T04:08:24.120Z"}
+{"level":"info","message":"Logging in user","service":"identity-service","timestamp":"2025-03-19T04:08:24.124Z"}
+{"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-03-19T04:08:24.218Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-03-19T04:24:25.656Z"}
+{"level":"info","message":"Request body: {\"email\":\"yana@gmail.com\",\"password\":\"123456\"}","service":"identity-service","timestamp":"2025-03-19T04:24:25.659Z"}
+{"level":"info","message":"Logging in user","service":"identity-service","timestamp":"2025-03-19T04:24:25.667Z"}
+{"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-03-19T04:24:25.763Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-03-19T04:41:41.701Z"}
+{"level":"info","message":"Request body: {\"email\":\"yana@gmail.com\",\"password\":\"123456\"}","service":"identity-service","timestamp":"2025-03-19T04:41:41.707Z"}
+{"level":"info","message":"Logging in user","service":"identity-service","timestamp":"2025-03-19T04:41:41.718Z"}
+{"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-03-19T04:41:41.829Z"}

@@ -8,6 +8,7 @@ import Redis from "ioredis";
 import { rateLimit } from "express-rate-limit";
 import { RedisStore } from "rate-limit-redis";
 import proxy from "express-http-proxy";
+import validateToken from "./middlewares/authMiddleware.js";
 
 dotenv.config();
 
@@ -49,7 +50,7 @@ const proxyOptions = {
   proxyReqPathResolver: (req) => {
     return req.originalUrl.replace(/^\/v1/, "/api");
   },
-  proxyErrorHandler: (err, req, res, next) => {
+  proxyErrorHandler: (err, res, next) => {
     logger.error("Proxy error", err.stack);
     res
       .status(500)
@@ -74,6 +75,23 @@ app.use(
   })
 );
 
+app.use(
+  "/v1/posts",
+  validateToken,
+  proxy(process.env.POST_SERVICE_URL, {
+    ...proxyOptions,
+    proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
+      proxyReqOpts.headers["Content-Type"] = "application/json";
+      proxyReqOpts.headers["x-user-id"] = srcReq.user._id;
+      return proxyReqOpts;
+    },
+    userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+      logger.info(`Responce receivd from Post service: ${proxyRes.statusCode}`);
+      return proxyResData;
+    },
+  })
+);
+
 app.use(errorHandler);
 
 app.listen(PORT, () => {
@@ -81,5 +99,6 @@ app.listen(PORT, () => {
   logger.info(
     `Identity service started on port ${process.env.IDENTITY_SERVICE_URL}`
   );
+  logger.info(`Post service started on port ${process.env.POST_SERVICE_URL}`);
   logger.info(`Redis URL ${process.env.REDIS_URL}`);
 });
