@@ -62,3 +62,66 @@
 {"level":"info","message":"Request body: {\"username\":\"yana\",\"email\":\"yana@gmail.com\",\"password\":\"123456\"}","service":"identity-service","timestamp":"2025-03-18T18:45:56.334Z"}
 {"level":"info","message":"Registering user","service":"identity-service","timestamp":"2025-03-18T18:45:56.340Z"}
 {"level":"warn","message":"User already exists","service":"identity-service","timestamp":"2025-03-18T18:45:56.391Z"}
+{"level":"info","message":"Received POST request to /register","service":"identity-service","timestamp":"2025-03-18T23:14:11.245Z"}
+{"level":"info","message":"Request body: {\"username\":\"yana\",\"email\":\"yana@gmail.com\",\"password\":\"123456\"}","service":"identity-service","timestamp":"2025-03-18T23:14:11.252Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-03-18T23:18:22.960Z"}
+{"level":"info","message":"Request body: {\"username\":\"yana\",\"email\":\"yana@gmail.com\",\"password\":\"123456\"}","service":"identity-service","timestamp":"2025-03-18T23:18:22.980Z"}
+{"level":"info","message":"Registering user","service":"identity-service","timestamp":"2025-03-18T23:18:23.010Z"}
+{"level":"warn","message":"User already exists","service":"identity-service","timestamp":"2025-03-18T23:18:23.370Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-03-18T23:18:31.658Z"}
+{"level":"info","message":"Request body: {\"username\":\"yana2\",\"email\":\"yana2@gmail.com\",\"password\":\"123456\"}","service":"identity-service","timestamp":"2025-03-18T23:18:31.659Z"}
+{"level":"info","message":"Registering user","service":"identity-service","timestamp":"2025-03-18T23:18:31.672Z"}
+{"buffer":{"data":[103,217,255,71,108,151,8,244,141,193,52,39],"type":"Buffer"},"level":"warn","message":"User registered successfully","service":"identity-service","timestamp":"2025-03-18T23:18:31.892Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-03-18T23:19:59.351Z"}
+{"level":"info","message":"Request body: {\"username\":\"yana2\",\"email\":\"yana2@gmail.com\",\"password\":\"123456\"}","service":"identity-service","timestamp":"2025-03-18T23:19:59.352Z"}
+{"level":"info","message":"Registering user","service":"identity-service","timestamp":"2025-03-18T23:19:59.367Z"}
+{"level":"warn","message":"User already exists","service":"identity-service","timestamp":"2025-03-18T23:19:59.410Z"}
+{"level":"info","message":"Server started on port 3010","service":"identity-service","timestamp":"2025-03-18T23:24:00.190Z"}
+{"level":"info","message":"Connected to database","service":"identity-service","timestamp":"2025-03-18T23:24:00.781Z"}
+{"level":"info","message":"Server started on port 3010","service":"identity-service","timestamp":"2025-03-18T23:29:59.325Z"}
+{"level":"info","message":"Connected to database","service":"identity-service","timestamp":"2025-03-18T23:29:59.869Z"}
+{"level":"info","message":"Server started on port 3010","service":"identity-service","timestamp":"2025-03-18T23:35:09.158Z"}
+{"level":"info","message":"Connected to database","service":"identity-service","timestamp":"2025-03-18T23:35:09.688Z"}
+{"level":"info","message":"Server started on port 3010","service":"identity-service","timestamp":"2025-03-18T23:35:27.846Z"}
+{"level":"info","message":"Connected to database","service":"identity-service","timestamp":"2025-03-18T23:35:28.293Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-03-18T23:35:46.775Z"}
+{"level":"info","message":"Request body: {\"email\":\"yana@gmail.com\",\"password\":\"123456\"}","service":"identity-service","timestamp":"2025-03-18T23:35:46.775Z"}
+{"level":"info","message":"Logging in user","service":"identity-service","timestamp":"2025-03-18T23:35:46.787Z"}
+{"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-03-18T23:35:46.909Z"}
+{"level":"info","message":"Server started on port 3010","service":"identity-service","timestamp":"2025-03-18T23:40:17.074Z"}
+{"level":"info","message":"Connected to database","service":"identity-service","timestamp":"2025-03-18T23:40:17.723Z"}
+{"level":"info","message":"Server started on port 3010","service":"identity-service","timestamp":"2025-03-18T23:40:28.869Z"}
+{"level":"info","message":"Connected to database","service":"identity-service","timestamp":"2025-03-18T23:40:29.640Z"}
+{"level":"info","message":"Server started on port 3010","service":"identity-service","timestamp":"2025-03-18T23:41:04.773Z"}
+{"level":"info","message":"Connected to database","service":"identity-service","timestamp":"2025-03-18T23:41:05.284Z"}
+{"level":"info","message":"Server started on port 3010","service":"identity-service","timestamp":"2025-03-19T00:04:51.818Z"}
+{"level":"info","message":"Connected to database","service":"identity-service","timestamp":"2025-03-19T00:04:52.387Z"}
+{"level":"info","message":"Server started on port 3010","service":"identity-service","timestamp":"2025-03-19T00:17:18.742Z"}
+{"level":"info","message":"Connected to database","service":"identity-service","timestamp":"2025-03-19T00:17:19.322Z"}
+{"level":"info","message":"Server started on port 3010","service":"identity-service","timestamp":"2025-03-19T00:18:06.409Z"}
+{"level":"info","message":"Connected to database","service":"identity-service","timestamp":"2025-03-19T00:18:06.872Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-03-19T00:18:35.231Z"}
+{"level":"info","message":"Request body: {\"email\":\"yana@gmail.com\",\"password\":\"123456\"}","service":"identity-service","timestamp":"2025-03-19T00:18:35.232Z"}
+{"level":"info","message":"Logging in user","service":"identity-service","timestamp":"2025-03-19T00:18:35.242Z"}
+{"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-03-19T00:18:35.362Z"}
+{"level":"info","message":"Received POST request to /api/auth/refresh","service":"identity-service","timestamp":"2025-03-19T00:21:53.126Z"}
+{"level":"info","message":"Request body: {}","service":"identity-service","timestamp":"2025-03-19T00:21:53.132Z"}
+{"level":"info","message":"Refreshing token","service":"identity-service","timestamp":"2025-03-19T00:21:53.147Z"}
+{"level":"warn","message":"Refresh token not found","service":"identity-service","timestamp":"2025-03-19T00:21:53.149Z"}
+{"level":"info","message":"Received POST request to /api/auth/refresh","service":"identity-service","timestamp":"2025-03-19T00:22:21.926Z"}
+{"level":"info","message":"Request body: {\"refreshToken\":\"53c5e63609ce3612638be2785c9dd4d4b2e2686cb2680c219b3b2ef0305dbcbc1119f00bb9cc6988d6c1b2920051d893b5dde1dd4d8475b481231910fe84a7a7\"}","service":"identity-service","timestamp":"2025-03-19T00:22:21.926Z"}
+{"level":"info","message":"Refreshing token","service":"identity-service","timestamp":"2025-03-19T00:22:21.930Z"}
+{"level":"info","message":"Received POST request to /api/auth/logout","service":"identity-service","timestamp":"2025-03-19T00:22:40.156Z"}
+{"level":"info","message":"Request body: {\"refreshToken\":\"53c5e63609ce3612638be2785c9dd4d4b2e2686cb2680c219b3b2ef0305dbcbc1119f00bb9cc6988d6c1b2920051d893b5dde1dd4d8475b481231910fe84a7a7\"}","service":"identity-service","timestamp":"2025-03-19T00:22:40.156Z"}
+{"level":"info","message":"Logging out user","service":"identity-service","timestamp":"2025-03-19T00:22:40.161Z"}
+{"level":"info","message":"Refresh token deleted successfully","service":"identity-service","timestamp":"2025-03-19T00:22:40.209Z"}
+{"level":"info","message":"Received POST request to /api/auth/logout","service":"identity-service","timestamp":"2025-03-19T00:22:46.463Z"}
+{"level":"info","message":"Request body: {\"refreshToken\":\"53c5e63609ce3612638be2785c9dd4d4b2e2686cb2680c219b3b2ef0305dbcbc1119f00bb9cc6988d6c1b2920051d893b5dde1dd4d8475b481231910fe84a7a7\"}","service":"identity-service","timestamp":"2025-03-19T00:22:46.463Z"}
+{"level":"info","message":"Logging out user","service":"identity-service","timestamp":"2025-03-19T00:22:46.467Z"}
+{"level":"info","message":"Refresh token deleted successfully","service":"identity-service","timestamp":"2025-03-19T00:22:46.504Z"}
+{"level":"info","message":"Server started on port 3010","service":"identity-service","timestamp":"2025-03-19T00:24:17.205Z"}
+{"level":"info","message":"Connected to database","service":"identity-service","timestamp":"2025-03-19T00:24:17.755Z"}
+{"level":"info","message":"Received POST request to /api/auth/refresh","service":"identity-service","timestamp":"2025-03-19T00:24:28.025Z"}
+{"level":"info","message":"Request body: {\"refreshToken\":\"53c5e63609ce3612638be2785c9dd4d4b2e2686cb2680c219b3b2ef0305dbcbc1119f00bb9cc6988d6c1b2920051d893b5dde1dd4d8475b481231910fe84a7a7\"}","service":"identity-service","timestamp":"2025-03-19T00:24:28.025Z"}
+{"level":"info","message":"Refreshing token","service":"identity-service","timestamp":"2025-03-19T00:24:28.029Z"}
+{"level":"warn","message":"Refresh token not found or expired","service":"identity-service","timestamp":"2025-03-19T00:24:28.068Z"}
