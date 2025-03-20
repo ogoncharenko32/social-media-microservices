@@ -9,6 +9,8 @@ import Redis from "ioredis";
 import { rateLimit } from "express-rate-limit";
 import { RedisStore } from "rate-limit-redis";
 import mediaRouter from "./routes/mediaRoutes.js";
+import connectRabbitMQ, { consumeEvent } from "./utils/rabbitmq.js";
+import { handlePostDeleted } from "./eventHandlers/mediaEvantHandlers.js";
 
 dotenv.config();
 
@@ -36,9 +38,23 @@ app.use("/api/media", mediaRouter);
 
 app.use(errorHandler);
 
-app.listen(PORT, () => {
-  logger.info(`Media service started on port ${PORT}`);
-});
+async function startServer() {
+  try {
+    await connectRabbitMQ();
+
+    //consume events
+
+    await consumeEvent("post.deleted", handlePostDeleted);
+
+    app.listen(PORT, () => {
+      logger.info(`Media service started on port ${PORT}`);
+    });
+  } catch (error) {
+    logger.error("failed to connect to server", error);
+  }
+}
+
+startServer();
 
 //unhandled promise rejections
 process.on("unhandledRejection", (reason, promise) => {

@@ -10,6 +10,7 @@ import Redis from "ioredis";
 import postRouter from "./routes/postRoutes.js";
 import { rateLimit } from "express-rate-limit";
 import { RedisStore } from "rate-limit-redis";
+import connectRabbitMQ from "./utils/rabbitmq.js";
 
 dotenv.config();
 
@@ -63,6 +64,15 @@ app.use(
 
 app.use(errorHandler);
 
-app.listen(PORT, () => {
-  logger.info(`Post service started on port ${PORT}`);
-});
+async function startServer() {
+  try {
+    await connectRabbitMQ();
+    app.listen(PORT, () => {
+      logger.info(`Post service started on port ${PORT}`);
+    });
+  } catch (error) {
+    logger.error("failed to connect to server", error);
+  }
+}
+
+startServer();

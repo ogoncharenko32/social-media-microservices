@@ -86,3 +86,108 @@
 {"level":"info","message":"Uploading to cloudinary completed. Public ID: vfdmttpvpmpyey9xjtya","service":"media-service","timestamp":"2025-03-20T02:02:48.220Z"}
 {"level":"info","message":"Media service started on port 3007","service":"media-service","timestamp":"2025-03-20T02:04:00.756Z"}
 {"level":"info","message":"Connected to database","service":"media-service","timestamp":"2025-03-20T02:04:01.329Z"}
+{"level":"info","message":"Media service started on port 3007","service":"media-service","timestamp":"2025-03-20T02:35:35.668Z"}
+{"level":"info","message":"Connected to database","service":"media-service","timestamp":"2025-03-20T02:35:36.187Z"}
+{"level":"info","message":"Media service started on port 3007","service":"media-service","timestamp":"2025-03-20T02:37:04.235Z"}
+{"level":"info","message":"Connected to database","service":"media-service","timestamp":"2025-03-20T02:37:04.826Z"}
+{"level":"info","message":"Media service started on port 3007","service":"media-service","timestamp":"2025-03-20T02:48:07.765Z"}
+{"level":"info","message":"Connected to database","service":"media-service","timestamp":"2025-03-20T02:48:08.271Z"}
+{"level":"info","message":"Media service started on port 3007","service":"media-service","timestamp":"2025-03-20T02:49:33.412Z"}
+{"level":"info","message":"Connected to database","service":"media-service","timestamp":"2025-03-20T02:49:34.102Z"}
+{"level":"info","message":"Media service started on port 3007","service":"media-service","timestamp":"2025-03-20T02:50:20.455Z"}
+{"level":"info","message":"Connected to database","service":"media-service","timestamp":"2025-03-20T02:50:20.958Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-03-20T02:54:42.960Z"}
+{"level":"info","message":"Request body: {}","service":"media-service","timestamp":"2025-03-20T02:54:42.967Z"}
+{"level":"info","message":"Media upload started","service":"media-service","timestamp":"2025-03-20T02:54:42.989Z"}
+{"level":"info","message":"Feliname details: Раскраски-Лева-7.jpg, image/jpeg, 67d9bef46c9708f48dc1341f","service":"media-service","timestamp":"2025-03-20T02:54:42.991Z"}
+{"level":"info","message":"Uploading to cloudinary started","service":"media-service","timestamp":"2025-03-20T02:54:42.991Z"}
+{"level":"info","message":"Uploading to cloudinary completed. Public ID: aqyx8xwieepswmwat4dw","service":"media-service","timestamp":"2025-03-20T02:54:44.873Z"}
+{"level":"info","message":"Received GET request to /api/media/all","service":"media-service","timestamp":"2025-03-20T02:55:28.800Z"}
+{"level":"info","message":"Request body: {}","service":"media-service","timestamp":"2025-03-20T02:55:28.806Z"}
+{"level":"info","message":"Getting all media","service":"media-service","timestamp":"2025-03-20T02:55:28.812Z"}
+{"level":"info","message":"Media service started on port 3007","service":"media-service","timestamp":"2025-03-20T03:07:39.710Z"}
+{"level":"info","message":"Connected to database","service":"media-service","timestamp":"2025-03-20T03:07:40.200Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-03-20T03:20:51.466Z"}
+{"0":"p","1":"o","10":"e","11":"d","2":"s","3":"t","4":"-","5":"d","6":"e","7":"l","8":"e","9":"t","level":"info","message":"Consuming events from RabbitMQ","service":"media-service","timestamp":"2025-03-20T03:20:51.508Z"}
+{"level":"info","message":"Media service started on port 3007","service":"media-service","timestamp":"2025-03-20T03:20:51.510Z"}
+{"level":"info","message":"Connected to database","service":"media-service","timestamp":"2025-03-20T03:20:51.949Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-03-20T03:24:00.305Z"}
+{"level":"info","message":"Request body: {}","service":"media-service","timestamp":"2025-03-20T03:24:00.306Z"}
+{"level":"info","message":"Media upload started","service":"media-service","timestamp":"2025-03-20T03:24:00.315Z"}
+{"level":"info","message":"Feliname details: Раскраски-Лева-7.jpg, image/jpeg, 67d9bef46c9708f48dc1341f","service":"media-service","timestamp":"2025-03-20T03:24:00.315Z"}
+{"level":"info","message":"Uploading to cloudinary started","service":"media-service","timestamp":"2025-03-20T03:24:00.315Z"}
+{"level":"info","message":"Uploading to cloudinary completed. Public ID: on0qasnovyfsmbhccfk7","service":"media-service","timestamp":"2025-03-20T03:24:02.073Z"}
+{"level":"error","message":"unhandledRejection","service":"media-service","timestamp":"2025-03-20T03:33:47.115Z"}
+{"level":"error","message":"unhandledRejection","service":"media-service","timestamp":"2025-03-20T03:39:40.460Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-03-20T03:45:23.925Z"}
+{"0":"p","1":"o","10":"e","11":"d","2":"s","3":"t","4":".","5":"d","6":"e","7":"l","8":"e","9":"t","level":"info","message":"Consuming events from RabbitMQ","service":"media-service","timestamp":"2025-03-20T03:45:23.941Z"}
+{"level":"info","message":"Media service started on port 3007","service":"media-service","timestamp":"2025-03-20T03:45:23.942Z"}
+{"level":"info","message":"Connected to database","service":"media-service","timestamp":"2025-03-20T03:45:24.431Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-03-20T03:50:23.052Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"media-service","timestamp":"2025-03-20T03:50:23.065Z"}
+{"level":"info","message":"Media service started on port 3007","service":"media-service","timestamp":"2025-03-20T03:50:23.067Z"}
+{"level":"info","message":"Connected to database","service":"media-service","timestamp":"2025-03-20T03:50:23.488Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-03-20T03:51:42.993Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"media-service","timestamp":"2025-03-20T03:51:43.014Z"}
+{"level":"info","message":"Media service started on port 3007","service":"media-service","timestamp":"2025-03-20T03:51:43.015Z"}
+{"level":"info","message":"Connected to database","service":"media-service","timestamp":"2025-03-20T03:51:43.488Z"}
+{"level":"error","message":"unhandledRejection","service":"media-service","timestamp":"2025-03-20T03:54:11.878Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-03-20T03:55:51.650Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"media-service","timestamp":"2025-03-20T03:55:51.665Z"}
+{"level":"info","message":"Media service started on port 3007","service":"media-service","timestamp":"2025-03-20T03:55:51.666Z"}
+{"level":"info","message":"Connected to database","service":"media-service","timestamp":"2025-03-20T03:55:52.111Z"}
+{"level":"error","message":"unhandledRejection","service":"media-service","timestamp":"2025-03-20T03:56:03.657Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-03-20T03:56:53.717Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"media-service","timestamp":"2025-03-20T03:56:53.780Z"}
+{"level":"info","message":"Media service started on port 3007","service":"media-service","timestamp":"2025-03-20T03:56:53.783Z"}
+{"level":"info","message":"Connected to database","service":"media-service","timestamp":"2025-03-20T03:56:54.208Z"}
+{"level":"error","message":"unhandledRejection","service":"media-service","timestamp":"2025-03-20T03:57:43.092Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-03-20T03:59:24.689Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"media-service","timestamp":"2025-03-20T03:59:24.705Z"}
+{"level":"info","message":"Media service started on port 3007","service":"media-service","timestamp":"2025-03-20T03:59:24.707Z"}
+{"level":"info","message":"Connected to database","service":"media-service","timestamp":"2025-03-20T03:59:25.158Z"}
+{"level":"error","message":"unhandledRejection","service":"media-service","timestamp":"2025-03-20T03:59:39.738Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-03-20T04:00:40.545Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"media-service","timestamp":"2025-03-20T04:00:40.555Z"}
+{"level":"info","message":"Media service started on port 3007","service":"media-service","timestamp":"2025-03-20T04:00:40.558Z"}
+{"level":"info","message":"Connected to database","service":"media-service","timestamp":"2025-03-20T04:00:40.945Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-03-20T04:01:07.282Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"media-service","timestamp":"2025-03-20T04:01:07.298Z"}
+{"level":"info","message":"Media service started on port 3007","service":"media-service","timestamp":"2025-03-20T04:01:07.301Z"}
+{"level":"info","message":"Connected to database","service":"media-service","timestamp":"2025-03-20T04:01:07.704Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-03-20T04:14:56.922Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"media-service","timestamp":"2025-03-20T04:14:56.945Z"}
+{"level":"info","message":"Media service started on port 3007","service":"media-service","timestamp":"2025-03-20T04:14:56.947Z"}
+{"level":"info","message":"Connected to database","service":"media-service","timestamp":"2025-03-20T04:14:57.379Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-03-20T04:15:11.403Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"media-service","timestamp":"2025-03-20T04:15:11.424Z"}
+{"level":"info","message":"Media service started on port 3007","service":"media-service","timestamp":"2025-03-20T04:15:11.429Z"}
+{"level":"info","message":"Connected to database","service":"media-service","timestamp":"2025-03-20T04:15:11.852Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-03-20T04:16:45.974Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"media-service","timestamp":"2025-03-20T04:16:45.991Z"}
+{"level":"info","message":"Media service started on port 3007","service":"media-service","timestamp":"2025-03-20T04:16:45.994Z"}
+{"level":"info","message":"Connected to database","service":"media-service","timestamp":"2025-03-20T04:16:46.619Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-03-20T04:17:01.511Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"media-service","timestamp":"2025-03-20T04:17:01.517Z"}
+{"level":"info","message":"Media service started on port 3007","service":"media-service","timestamp":"2025-03-20T04:17:01.519Z"}
+{"level":"info","message":"Connected to database","service":"media-service","timestamp":"2025-03-20T04:17:02.143Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-03-20T04:19:59.346Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"media-service","timestamp":"2025-03-20T04:19:59.359Z"}
+{"level":"info","message":"Media service started on port 3007","service":"media-service","timestamp":"2025-03-20T04:19:59.364Z"}
+{"level":"info","message":"Connected to database","service":"media-service","timestamp":"2025-03-20T04:19:59.870Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-03-20T04:21:40.120Z"}
+{"level":"info","message":"Request body: {}","service":"media-service","timestamp":"2025-03-20T04:21:40.121Z"}
+{"level":"info","message":"Media upload started","service":"media-service","timestamp":"2025-03-20T04:21:40.129Z"}
+{"level":"info","message":"Feliname details: Раскраски-Лева-7.jpg, image/jpeg, 67d9bef46c9708f48dc1341f","service":"media-service","timestamp":"2025-03-20T04:21:40.129Z"}
+{"level":"info","message":"Uploading to cloudinary started","service":"media-service","timestamp":"2025-03-20T04:21:40.129Z"}
+{"level":"info","message":"Uploading to cloudinary completed. Public ID: k9iiivn77pmngse7g5dq","service":"media-service","timestamp":"2025-03-20T04:21:41.891Z"}
+{"kind":"ObjectId","level":"error","message":"Error deleting post Cast to ObjectId failed for value \"k9iiivn77pmngse7g5dq\" (type string) at path \"_id\" for model \"Media\"","path":"_id","reason":{},"service":"media-service","stack":"CastError: Cast to ObjectId failed for value \"k9iiivn77pmngse7g5dq\" (type string) at path \"_id\" for model \"Media\"\n    at SchemaObjectId.cast (/Users/ogoncharenko/Projects/social-media-microservices/media-service/node_modules/mongoose/lib/schema/objectId.js:251:11)\n    at SchemaType.applySetters (/Users/ogoncharenko/Projects/social-media-microservices/media-service/node_modules/mongoose/lib/schemaType.js:1255:12)\n    at SchemaType.castForQuery (/Users/ogoncharenko/Projects/social-media-microservices/media-service/node_modules/mongoose/lib/schemaType.js:1673:17)\n    at /Users/ogoncharenko/Projects/social-media-microservices/media-service/node_modules/mongoose/lib/schemaType.js:1634:18\n    at Array.map (<anonymous>)\n    at SchemaObjectId.handle$in (/Users/ogoncharenko/Projects/social-media-microservices/media-service/node_modules/mongoose/lib/schemaType.js:1630:14)\n    at SchemaType.castForQuery (/Users/ogoncharenko/Projects/social-media-microservices/media-service/node_modules/mongoose/lib/schemaType.js:1669:20)\n    at cast (/Users/ogoncharenko/Projects/social-media-microservices/media-service/node_modules/mongoose/lib/cast.js:367:39)\n    at Query.cast (/Users/ogoncharenko/Projects/social-media-microservices/media-service/node_modules/mongoose/lib/query.js:4907:12)\n    at Query._castConditions (/Users/ogoncharenko/Projects/social-media-microservices/media-service/node_modules/mongoose/lib/query.js:2325:10)","stringValue":"\"k9iiivn77pmngse7g5dq\"","timestamp":"2025-03-20T04:22:52.794Z","value":"k9iiivn77pmngse7g5dq","valueType":"string"}
+{"level":"info","message":"Received GET request to /api/media/all","service":"media-service","timestamp":"2025-03-20T04:23:24.793Z"}
+{"level":"info","message":"Request body: {}","service":"media-service","timestamp":"2025-03-20T04:23:24.796Z"}
+{"level":"info","message":"Getting all media","service":"media-service","timestamp":"2025-03-20T04:23:24.799Z"}
+{"level":"info","message":"Media deleted from cloudinary","service":"media-service","timestamp":"2025-03-20T04:24:22.613Z"}
+{"level":"info","message":"Media deleted: 67db97d546735b72b679a8b5 assosiated with post: 67db98646374f8125e7f22fb","service":"media-service","timestamp":"2025-03-20T04:24:22.658Z"}
+{"level":"info","message":"Processed deletion of post: 67db98646374f8125e7f22fb by user: 67d9bef46c9708f48dc1341f","service":"media-service","timestamp":"2025-03-20T04:24:22.658Z"}
+{"level":"info","message":"Received GET request to /api/media/all","service":"media-service","timestamp":"2025-03-20T04:25:32.480Z"}
+{"level":"info","message":"Request body: {}","service":"media-service","timestamp":"2025-03-20T04:25:32.481Z"}
+{"level":"info","message":"Getting all media","service":"media-service","timestamp":"2025-03-20T04:25:32.486Z"}

@@ -2,7 +2,7 @@ import { Router } from "express";
 import multer from "multer";
 import logger from "../utils/logger.js";
 import { authenticateRequest } from "../middlewares/authMeddleware.js";
-import { uploadMedia } from "../controllers/mediaController.js";
+import { getAllMedias, uploadMedia } from "../controllers/mediaController.js";
 
 const mediaRouter = Router();
 
@@ -46,5 +46,7 @@ mediaRouter.post(
   },
   uploadMedia
 );
+
+mediaRouter.get("/all", authenticateRequest, getAllMedias);
 
 export default mediaRouter;
