@@ -191,3 +191,11 @@
 {"level":"info","message":"Received GET request to /api/media/all","service":"media-service","timestamp":"2025-03-20T04:25:32.480Z"}
 {"level":"info","message":"Request body: {}","service":"media-service","timestamp":"2025-03-20T04:25:32.481Z"}
 {"level":"info","message":"Getting all media","service":"media-service","timestamp":"2025-03-20T04:25:32.486Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-03-20T04:27:24.072Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"media-service","timestamp":"2025-03-20T04:27:24.082Z"}
+{"level":"info","message":"Media service started on port 3007","service":"media-service","timestamp":"2025-03-20T04:27:24.083Z"}
+{"level":"info","message":"Connected to database","service":"media-service","timestamp":"2025-03-20T04:27:24.557Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-03-21T01:04:33.616Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"media-service","timestamp":"2025-03-21T01:04:33.634Z"}
+{"level":"info","message":"Media service started on port 3007","service":"media-service","timestamp":"2025-03-21T01:04:33.637Z"}
+{"level":"info","message":"Connected to database","service":"media-service","timestamp":"2025-03-21T01:04:34.129Z"}

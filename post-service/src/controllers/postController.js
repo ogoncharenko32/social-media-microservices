@@ -36,6 +36,13 @@ export const createPost = async (req, res) => {
       .status(201)
       .json({ success: true, message: "Post created successfully", post });
 
+    await publishMessage("post.created", {
+      postId: post._id.toString(),
+      userId: post.user.toString(),
+      content: post.text,
+      createdAt: post.createdAt,
+    });
+
     await invalidatePostCache(req, post._id.toString());
   } catch (error) {
     logger.error("Error creating post", error);

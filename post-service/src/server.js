@@ -4,7 +4,6 @@ import cors from "cors";
 import helmet from "helmet";
 import logger from "./utils/logger.js";
 import errorHandler from "./middlewares/errorHandler.js";
-import Post from "./models/Post.js";
 import mongoose from "mongoose";
 import Redis from "ioredis";
 import postRouter from "./routes/postRoutes.js";

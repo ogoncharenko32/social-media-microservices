@@ -197,3 +197,7 @@
 {"level":"info","message":"Request body: {\"email\":\"yana@gmail.com\",\"password\":\"123456\"}","service":"identity-service","timestamp":"2025-03-20T04:21:12.857Z"}
 {"level":"info","message":"Logging in user","service":"identity-service","timestamp":"2025-03-20T04:21:12.871Z"}
 {"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-03-20T04:21:12.969Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-03-21T01:08:17.915Z"}
+{"level":"info","message":"Request body: {\"email\":\"yana@gmail.com\",\"password\":\"123456\"}","service":"identity-service","timestamp":"2025-03-21T01:08:17.944Z"}
+{"level":"info","message":"Logging in user","service":"identity-service","timestamp":"2025-03-21T01:08:17.972Z"}
+{"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-03-21T01:08:18.562Z"}

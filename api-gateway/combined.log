@@ -537,3 +537,45 @@
 {"level":"info","message":"Received GET request to /v1/media/all","service":"api-gateway","timestamp":"2025-03-20T04:25:32.456Z"}
 {"level":"info","message":"Request body: {}","service":"api-gateway","timestamp":"2025-03-20T04:25:32.460Z"}
 {"level":"info","message":"Responce receivd from Media service: 200","service":"api-gateway","timestamp":"2025-03-20T04:25:32.532Z"}
+{"level":"info","message":"API Gateway started on port 3009","service":"api-gateway","timestamp":"2025-03-21T01:04:13.403Z"}
+{"level":"info","message":"Identity service started on port http://localhost:3010","service":"api-gateway","timestamp":"2025-03-21T01:04:13.417Z"}
+{"level":"info","message":"Post service started on port http://localhost:3008","service":"api-gateway","timestamp":"2025-03-21T01:04:13.417Z"}
+{"level":"info","message":"Media service started on port http://localhost:3007","service":"api-gateway","timestamp":"2025-03-21T01:04:13.417Z"}
+{"level":"info","message":"Search service started on port http://localhost:3006","service":"api-gateway","timestamp":"2025-03-21T01:04:13.418Z"}
+{"level":"info","message":"Redis URL redis://localhost:6379","service":"api-gateway","timestamp":"2025-03-21T01:04:13.418Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-03-21T01:08:17.748Z"}
+{"level":"info","message":"Request body: {\"email\":\"yana@gmail.com\",\"password\":\"123456\"}","service":"api-gateway","timestamp":"2025-03-21T01:08:17.757Z"}
+{"level":"info","message":"Responce receivd from Identity service: 200","service":"api-gateway","timestamp":"2025-03-21T01:08:18.638Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create","service":"api-gateway","timestamp":"2025-03-21T01:08:43.679Z"}
+{"level":"info","message":"Request body: {\"title\":\"new post with serach service\",\"text\":\"text\",\"mediaUrls\":[\"67db97d546735b72b679a8b5\"]}","service":"api-gateway","timestamp":"2025-03-21T01:08:43.680Z"}
+{"level":"info","message":"Responce receivd from Post service: 201","service":"api-gateway","timestamp":"2025-03-21T01:08:43.856Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create","service":"api-gateway","timestamp":"2025-03-21T01:11:43.980Z"}
+{"level":"info","message":"Request body: {\"title\":\"new post with serach service2\",\"text\":\"text\",\"mediaUrls\":[\"67db97d546735b72b679a8b5\"]}","service":"api-gateway","timestamp":"2025-03-21T01:11:43.981Z"}
+{"level":"info","message":"Responce receivd from Post service: 201","service":"api-gateway","timestamp":"2025-03-21T01:11:44.090Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create","service":"api-gateway","timestamp":"2025-03-21T01:13:38.639Z"}
+{"level":"info","message":"Request body: {\"title\":\"new post with serach service3\",\"text\":\"some content\",\"mediaUrls\":[\"67db97d546735b72b679a8b5\"]}","service":"api-gateway","timestamp":"2025-03-21T01:13:38.642Z"}
+{"level":"info","message":"Responce receivd from Post service: 201","service":"api-gateway","timestamp":"2025-03-21T01:13:38.756Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create","service":"api-gateway","timestamp":"2025-03-21T01:15:11.164Z"}
+{"level":"info","message":"Request body: {\"title\":\"new post with serach service3\",\"text\":\"some content\",\"mediaUrls\":[\"67db97d546735b72b679a8b5\"]}","service":"api-gateway","timestamp":"2025-03-21T01:15:11.164Z"}
+{"level":"info","message":"Responce receivd from Post service: 201","service":"api-gateway","timestamp":"2025-03-21T01:15:11.232Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create","service":"api-gateway","timestamp":"2025-03-21T01:15:41.508Z"}
+{"level":"info","message":"Request body: {\"title\":\"new post with serach service3\",\"text\":\"some content\",\"mediaUrls\":[\"67db97d546735b72b679a8b5\"]}","service":"api-gateway","timestamp":"2025-03-21T01:15:41.509Z"}
+{"level":"info","message":"Responce receivd from Post service: 201","service":"api-gateway","timestamp":"2025-03-21T01:15:41.567Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create","service":"api-gateway","timestamp":"2025-03-21T01:15:46.521Z"}
+{"level":"info","message":"Request body: {\"title\":\"new post with serach service3\",\"text\":\"some content\",\"mediaUrls\":[\"67db97d546735b72b679a8b5\"]}","service":"api-gateway","timestamp":"2025-03-21T01:15:46.523Z"}
+{"level":"info","message":"Responce receivd from Post service: 201","service":"api-gateway","timestamp":"2025-03-21T01:15:46.584Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create","service":"api-gateway","timestamp":"2025-03-21T01:17:23.745Z"}
+{"level":"info","message":"Request body: {\"title\":\"new post with serach service3\",\"text\":\"some content\",\"mediaUrls\":[\"67db97d546735b72b679a8b5\"]}","service":"api-gateway","timestamp":"2025-03-21T01:17:23.748Z"}
+{"level":"info","message":"Responce receivd from Post service: 201","service":"api-gateway","timestamp":"2025-03-21T01:17:23.846Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create","service":"api-gateway","timestamp":"2025-03-21T01:17:26.007Z"}
+{"level":"info","message":"Request body: {\"title\":\"new post with serach service3\",\"text\":\"some content\",\"mediaUrls\":[\"67db97d546735b72b679a8b5\"]}","service":"api-gateway","timestamp":"2025-03-21T01:17:26.007Z"}
+{"level":"info","message":"Responce receivd from Post service: 201","service":"api-gateway","timestamp":"2025-03-21T01:17:26.055Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create","service":"api-gateway","timestamp":"2025-03-21T01:17:28.226Z"}
+{"level":"info","message":"Request body: {\"title\":\"new post with serach service3\",\"text\":\"some content\",\"mediaUrls\":[\"67db97d546735b72b679a8b5\"]}","service":"api-gateway","timestamp":"2025-03-21T01:17:28.226Z"}
+{"level":"info","message":"Responce receivd from Post service: 201","service":"api-gateway","timestamp":"2025-03-21T01:17:28.293Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create","service":"api-gateway","timestamp":"2025-03-21T01:21:01.216Z"}
+{"level":"info","message":"Request body: {\"title\":\"new post with serach service1\",\"text\":\"some content\",\"mediaUrls\":[\"67db97d546735b72b679a8b5\"]}","service":"api-gateway","timestamp":"2025-03-21T01:21:01.219Z"}
+{"level":"info","message":"Responce receivd from Post service: 201","service":"api-gateway","timestamp":"2025-03-21T01:21:01.325Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create","service":"api-gateway","timestamp":"2025-03-21T01:21:36.543Z"}
+{"level":"info","message":"Request body: {\"title\":\"new post with serach service2\",\"text\":\"some content\",\"mediaUrls\":[\"67db97d546735b72b679a8b5\"]}","service":"api-gateway","timestamp":"2025-03-21T01:21:36.544Z"}
+{"level":"info","message":"Responce receivd from Post service: 201","service":"api-gateway","timestamp":"2025-03-21T01:21:36.602Z"}
