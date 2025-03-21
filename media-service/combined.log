@@ -199,3 +199,17 @@
 {"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"media-service","timestamp":"2025-03-21T01:04:33.634Z"}
 {"level":"info","message":"Media service started on port 3007","service":"media-service","timestamp":"2025-03-21T01:04:33.637Z"}
 {"level":"info","message":"Connected to database","service":"media-service","timestamp":"2025-03-21T01:04:34.129Z"}
+{"level":"info","message":"Processed deletion of post: 67dcbf209e4f5b4318f85217 by user: 67d9bef46c9708f48dc1341f","service":"media-service","timestamp":"2025-03-21T01:28:48.802Z"}
+{"level":"info","message":"Processed deletion of post: 67dcbefd9e4f5b4318f85215 by user: 67d9bef46c9708f48dc1341f","service":"media-service","timestamp":"2025-03-21T01:30:50.396Z"}
+{"level":"info","message":"Processed deletion of post: 67dcc2b99e4f5b4318f8522b by user: 67d9bef46c9708f48dc1341f","service":"media-service","timestamp":"2025-03-21T01:37:24.986Z"}
+{"level":"info","message":"Processed deletion of post: 67dcc48e9e4f5b4318f85230 by user: 67d9bef46c9708f48dc1341f","service":"media-service","timestamp":"2025-03-21T01:45:07.741Z"}
+{"level":"info","message":"Processed deletion of post: 67dcc2b89e4f5b4318f85229 by user: 67d9bef46c9708f48dc1341f","service":"media-service","timestamp":"2025-03-21T02:03:34.011Z"}
+{"level":"info","message":"Processed deletion of post: 67dcc2b79e4f5b4318f85227 by user: 67d9bef46c9708f48dc1341f","service":"media-service","timestamp":"2025-03-21T02:11:08.236Z"}
+{"level":"info","message":"Processed deletion of post: 67dcc2b29e4f5b4318f85221 by user: 67d9bef46c9708f48dc1341f","service":"media-service","timestamp":"2025-03-21T02:12:28.562Z"}
+{"level":"info","message":"Received GET request to /api/media/all","service":"media-service","timestamp":"2025-03-21T15:49:47.508Z"}
+{"level":"info","message":"Request body: {}","service":"media-service","timestamp":"2025-03-21T15:49:47.515Z"}
+{"level":"info","message":"Getting all media","service":"media-service","timestamp":"2025-03-21T15:49:47.517Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-03-21T16:33:12.978Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"media-service","timestamp":"2025-03-21T16:33:12.981Z"}
+{"level":"info","message":"Media service started on port 3007","service":"media-service","timestamp":"2025-03-21T16:33:12.982Z"}
+{"level":"info","message":"Connected to database","service":"media-service","timestamp":"2025-03-21T16:33:13.387Z"}

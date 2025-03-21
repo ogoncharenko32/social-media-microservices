@@ -201,3 +201,53 @@
 {"level":"info","message":"Request body: {\"email\":\"yana@gmail.com\",\"password\":\"123456\"}","service":"identity-service","timestamp":"2025-03-21T01:08:17.944Z"}
 {"level":"info","message":"Logging in user","service":"identity-service","timestamp":"2025-03-21T01:08:17.972Z"}
 {"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-03-21T01:08:18.562Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-03-21T01:28:11.868Z"}
+{"level":"info","message":"Request body: {\"email\":\"yana@gmail.com\",\"password\":\"123456\"}","service":"identity-service","timestamp":"2025-03-21T01:28:11.929Z"}
+{"level":"info","message":"Logging in user","service":"identity-service","timestamp":"2025-03-21T01:28:11.997Z"}
+{"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-03-21T01:28:12.370Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-03-21T01:36:40.790Z"}
+{"level":"info","message":"Request body: {\"email\":\"yana@gmail.com\",\"password\":\"123456\"}","service":"identity-service","timestamp":"2025-03-21T01:36:40.793Z"}
+{"level":"info","message":"Logging in user","service":"identity-service","timestamp":"2025-03-21T01:36:40.803Z"}
+{"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-03-21T01:36:40.909Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-03-21T02:03:12.438Z"}
+{"level":"info","message":"Request body: {\"email\":\"yana@gmail.com\",\"password\":\"123456\"}","service":"identity-service","timestamp":"2025-03-21T02:03:12.446Z"}
+{"level":"info","message":"Logging in user","service":"identity-service","timestamp":"2025-03-21T02:03:12.455Z"}
+{"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-03-21T02:03:12.591Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-03-21T02:10:31.232Z"}
+{"level":"info","message":"Request body: {\"email\":\"yana@gmail.com\",\"password\":\"123456\"}","service":"identity-service","timestamp":"2025-03-21T02:10:31.238Z"}
+{"level":"info","message":"Logging in user","service":"identity-service","timestamp":"2025-03-21T02:10:31.255Z"}
+{"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-03-21T02:10:31.411Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-03-21T02:28:55.831Z"}
+{"level":"info","message":"Request body: {\"email\":\"yana@gmail.com\",\"password\":\"123456\"}","service":"identity-service","timestamp":"2025-03-21T02:28:55.836Z"}
+{"level":"info","message":"Logging in user","service":"identity-service","timestamp":"2025-03-21T02:28:55.860Z"}
+{"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-03-21T02:28:55.971Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-03-21T03:05:52.744Z"}
+{"level":"info","message":"Request body: {\"email\":\"yana@gmail.com\",\"password\":\"123456\"}","service":"identity-service","timestamp":"2025-03-21T03:05:52.754Z"}
+{"level":"info","message":"Logging in user","service":"identity-service","timestamp":"2025-03-21T03:05:52.784Z"}
+{"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-03-21T03:05:52.977Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-03-21T15:48:30.215Z"}
+{"level":"info","message":"Request body: {\"email\":\"yana@gmail.com\",\"password\":\"123456\"}","service":"identity-service","timestamp":"2025-03-21T15:48:30.240Z"}
+{"level":"info","message":"Logging in user","service":"identity-service","timestamp":"2025-03-21T15:48:30.275Z"}
+{"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-03-21T15:48:30.828Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-03-21T16:04:04.854Z"}
+{"level":"info","message":"Request body: {\"email\":\"yana@gmail.com\",\"password\":\"123456\"}","service":"identity-service","timestamp":"2025-03-21T16:04:04.879Z"}
+{"level":"info","message":"Logging in user","service":"identity-service","timestamp":"2025-03-21T16:04:04.917Z"}
+{"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-03-21T16:04:05.135Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-03-21T16:24:53.706Z"}
+{"level":"info","message":"Request body: {\"email\":\"yana@gmail.com\",\"password\":\"123456\"}","service":"identity-service","timestamp":"2025-03-21T16:24:53.747Z"}
+{"level":"info","message":"Logging in user","service":"identity-service","timestamp":"2025-03-21T16:24:53.828Z"}
+{"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-03-21T16:24:54.254Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-03-21T16:27:51.339Z"}
+{"level":"info","message":"Request body: {\"email\":\"yana@gmail.com\",\"password\":\"123456\"}","service":"identity-service","timestamp":"2025-03-21T16:27:51.546Z"}
+{"level":"info","message":"Logging in user","service":"identity-service","timestamp":"2025-03-21T16:27:51.746Z"}
+{"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-03-21T16:27:52.508Z"}
+{"level":"info","message":"Server started on port 3010","service":"identity-service","timestamp":"2025-03-21T16:33:19.953Z"}
+{"level":"info","message":"Connected to database","service":"identity-service","timestamp":"2025-03-21T16:33:20.381Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-03-21T16:33:45.537Z"}
+{"level":"info","message":"Request body: {\"email\":\"yana@gmail.com\",\"password\":\"123456\"}","service":"identity-service","timestamp":"2025-03-21T16:33:45.537Z"}
+{"level":"info","message":"Logging in user","service":"identity-service","timestamp":"2025-03-21T16:33:45.540Z"}
+{"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-03-21T16:33:45.635Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-03-21T20:27:27.885Z"}
+{"level":"info","message":"Request body: {\"email\":\"yana@gmail.com\",\"password\":\"123456\"}","service":"identity-service","timestamp":"2025-03-21T20:27:27.887Z"}
+{"level":"info","message":"Logging in user","service":"identity-service","timestamp":"2025-03-21T20:27:27.897Z"}
+{"level":"info","message":"User logged in successfully","service":"identity-service","timestamp":"2025-03-21T20:27:28.303Z"}

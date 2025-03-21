@@ -11,7 +11,10 @@ import searchRouter from "./routes/searchRoutes.js";
 import { rateLimit } from "express-rate-limit";
 import { RedisStore } from "rate-limit-redis";
 import connectRabbitMQ, { consumeEvent } from "./utils/rabbitmq.js";
-import { searchEventHandler } from "./eventHandlers/searchEventHandler.js";
+import {
+  postDeletedEventHandler,
+  searchEventHandler,
+} from "./eventHandlers/searchEventHandler.js";
 
 dotenv.config();
 
@@ -35,7 +38,14 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use("/api/search", searchRouter);
+app.use(
+  "/api/search",
+  (req, res, next) => {
+    req.redisClient = redisClient;
+    next();
+  },
+  searchRouter
+);
 
 app.use(errorHandler);
 
@@ -44,6 +54,7 @@ async function startServer() {
     await connectRabbitMQ();
 
     //consume events
+    await consumeEvent("post.deleted", postDeletedEventHandler);
     await consumeEvent("post.created", searchEventHandler);
 
     app.listen(PORT, () => {

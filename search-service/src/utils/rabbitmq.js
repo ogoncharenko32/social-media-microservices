@@ -23,15 +23,13 @@ export async function consumeEvent(queue, callback) {
     await connectRabbitMQ();
   }
 
-  const q = await channel.assertQueue(queue, { durable: true });
+  const q = await channel.assertQueue("", { exclusive: true });
 
   await channel.bindQueue(q.queue, EXCHANGE_NAME, queue);
 
   channel.consume(q.queue, (msg) => {
     if (msg !== null) {
-      console.log(msg);
       const content = JSON.parse(msg.content.toString());
-      console.log(content);
       callback(content);
       channel.ack(msg);
     }

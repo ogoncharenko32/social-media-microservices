@@ -36,3 +36,436 @@
 {"level":"info","message":"Connected to database","service":"post-service","timestamp":"2025-03-21T01:20:34.073Z"}
 {"level":"info","message":"New search post created: {\n  postId: '67dcbefd9e4f5b4318f85215',\n  userId: '67d9bef46c9708f48dc1341f',\n  content: 'some content',\n  createdAt: 2025-03-21T01:21:01.263Z,\n  _id: new ObjectId('67dcbefd57f46c22d506daa4'),\n  updatedAt: 2025-03-21T01:21:01.263Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-03-21T01:21:01.431Z"}
 {"level":"info","message":"New search post created: {\n  postId: '67dcbf209e4f5b4318f85217',\n  userId: '67d9bef46c9708f48dc1341f',\n  content: 'some content',\n  createdAt: 2025-03-21T01:21:36.558Z,\n  _id: new ObjectId('67dcbf2057f46c22d506daa6'),\n  updatedAt: 2025-03-21T01:21:36.558Z,\n  __v: 0\n}","service":"post-service","timestamp":"2025-03-21T01:21:36.659Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-03-21T01:23:40.916Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"post-service","timestamp":"2025-03-21T01:23:40.923Z"}
+{"level":"info","message":"Search service started on port 3006","service":"post-service","timestamp":"2025-03-21T01:23:40.924Z"}
+{"level":"info","message":"Connected to database","service":"post-service","timestamp":"2025-03-21T01:23:41.386Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-03-21T01:25:53.396Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"post-service","timestamp":"2025-03-21T01:25:53.435Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"post-service","timestamp":"2025-03-21T01:25:53.451Z"}
+{"level":"info","message":"Search service started on port 3006","service":"post-service","timestamp":"2025-03-21T01:25:53.454Z"}
+{"level":"info","message":"Connected to database","service":"post-service","timestamp":"2025-03-21T01:25:53.869Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-03-21T01:27:14.048Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"post-service","timestamp":"2025-03-21T01:27:14.085Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"post-service","timestamp":"2025-03-21T01:27:14.087Z"}
+{"level":"info","message":"Search service started on port 3006","service":"post-service","timestamp":"2025-03-21T01:27:14.088Z"}
+{"level":"info","message":"Connected to database","service":"post-service","timestamp":"2025-03-21T01:27:14.586Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-03-21T01:27:37.994Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"post-service","timestamp":"2025-03-21T01:27:38.029Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"post-service","timestamp":"2025-03-21T01:27:38.034Z"}
+{"level":"info","message":"Search service started on port 3006","service":"post-service","timestamp":"2025-03-21T01:27:38.035Z"}
+{"level":"info","message":"Connected to database","service":"post-service","timestamp":"2025-03-21T01:27:38.460Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-03-21T01:30:20.188Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"post-service","timestamp":"2025-03-21T01:30:20.210Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"post-service","timestamp":"2025-03-21T01:30:20.218Z"}
+{"level":"info","message":"Search service started on port 3006","service":"post-service","timestamp":"2025-03-21T01:30:20.222Z"}
+{"level":"info","message":"Connected to database","service":"post-service","timestamp":"2025-03-21T01:30:20.678Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T01:36:31.119Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T01:36:31.131Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T01:36:31.134Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T01:36:31.135Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T01:36:31.595Z"}
+{"level":"info","message":"New search post created: {\n  postId: '67dcc2b29e4f5b4318f85221',\n  userId: '67d9bef46c9708f48dc1341f',\n  content: 'some content',\n  createdAt: 2025-03-21T01:36:50.013Z,\n  _id: new ObjectId('67dcc2b2ba39aa8fcc46cfde'),\n  updatedAt: 2025-03-21T01:36:50.013Z,\n  __v: 0\n}","service":"search-service","timestamp":"2025-03-21T01:36:50.165Z"}
+{"level":"info","message":"New search post created: {\n  postId: '67dcc2b69e4f5b4318f85223',\n  userId: '67d9bef46c9708f48dc1341f',\n  content: 'some content',\n  createdAt: 2025-03-21T01:36:54.977Z,\n  _id: new ObjectId('67dcc2b7ba39aa8fcc46cfe0'),\n  updatedAt: 2025-03-21T01:36:54.977Z,\n  __v: 0\n}","service":"search-service","timestamp":"2025-03-21T01:36:55.083Z"}
+{"level":"info","message":"New search post created: {\n  postId: '67dcc2b79e4f5b4318f85225',\n  userId: '67d9bef46c9708f48dc1341f',\n  content: 'some content',\n  createdAt: 2025-03-21T01:36:55.430Z,\n  _id: new ObjectId('67dcc2b7ba39aa8fcc46cfe2'),\n  updatedAt: 2025-03-21T01:36:55.430Z,\n  __v: 0\n}","service":"search-service","timestamp":"2025-03-21T01:36:55.530Z"}
+{"level":"info","message":"New search post created: {\n  postId: '67dcc2b79e4f5b4318f85227',\n  userId: '67d9bef46c9708f48dc1341f',\n  content: 'some content',\n  createdAt: 2025-03-21T01:36:55.932Z,\n  _id: new ObjectId('67dcc2b7ba39aa8fcc46cfe4'),\n  updatedAt: 2025-03-21T01:36:55.932Z,\n  __v: 0\n}","service":"search-service","timestamp":"2025-03-21T01:36:56.025Z"}
+{"level":"info","message":"New search post created: {\n  postId: '67dcc2b89e4f5b4318f85229',\n  userId: '67d9bef46c9708f48dc1341f',\n  content: 'some content',\n  createdAt: 2025-03-21T01:36:56.449Z,\n  _id: new ObjectId('67dcc2b8ba39aa8fcc46cfe6'),\n  updatedAt: 2025-03-21T01:36:56.449Z,\n  __v: 0\n}","service":"search-service","timestamp":"2025-03-21T01:36:56.539Z"}
+{"level":"info","message":"New search post created: {\n  postId: '67dcc2b99e4f5b4318f8522b',\n  userId: '67d9bef46c9708f48dc1341f',\n  content: 'some content',\n  createdAt: 2025-03-21T01:36:57.017Z,\n  _id: new ObjectId('67dcc2b9ba39aa8fcc46cfe8'),\n  updatedAt: 2025-03-21T01:36:57.017Z,\n  __v: 0\n}","service":"search-service","timestamp":"2025-03-21T01:36:57.118Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T01:39:52.779Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T01:39:52.815Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T01:39:52.827Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T01:39:52.829Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T01:39:53.284Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T01:43:53.168Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T01:43:53.197Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T01:43:53.205Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T01:43:53.209Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T01:43:53.677Z"}
+{"level":"info","message":"New search post created: {\n  postId: '67dcc48e9e4f5b4318f85230',\n  userId: '67d9bef46c9708f48dc1341f',\n  content: 'some content',\n  createdAt: 2025-03-21T01:44:46.233Z,\n  _id: new ObjectId('67dcc48ea8fd273c87d7f43e'),\n  updatedAt: 2025-03-21T01:44:46.233Z,\n  __v: 0\n}","service":"search-service","timestamp":"2025-03-21T01:44:46.411Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T01:58:24.071Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T01:58:24.095Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T01:58:24.100Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T01:58:24.101Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T01:58:24.574Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T01:59:04.122Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T01:59:04.126Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T01:59:04.129Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T01:59:04.130Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T01:59:04.709Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T02:08:58.711Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T02:08:58.782Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T02:08:58.789Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T02:08:58.790Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T02:08:59.410Z"}
+{"level":"info","message":"Deleted search posts for post: 67dcc2b79e4f5b4318f85227","service":"search-service","timestamp":"2025-03-21T02:11:08.232Z"}
+{"level":"info","message":"Deleted search posts for post: 67dcc2b29e4f5b4318f85221","service":"search-service","timestamp":"2025-03-21T02:12:28.568Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=content","service":"search-service","timestamp":"2025-03-21T02:14:27.037Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T02:14:27.038Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T02:14:27.038Z"}
+{"level":"error","message":"Error searching for posts {(intermediate value)}.sort is not a function","service":"search-service","stack":"TypeError: {(intermediate value)}.sort is not a function\n    at searchPostController (file:///Users/ogoncharenko/Projects/social-media-microservices/search-service/src/controllers/searchController.js:14:10)\n    at Layer.handle [as handle_request] (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/express/lib/router/layer.js:95:5)\n    at next (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/express/lib/router/layer.js:95:5)\n    at /Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/express/lib/router/index.js:346:12)\n    at next (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/express/lib/router/index.js:280:10)\n    at authenticateRequest (file:///Users/ogoncharenko/Projects/social-media-microservices/search-service/src/middlewares/authMeddleware.js:12:3)\n    at Layer.handle [as handle_request] (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/express/lib/router/layer.js:95:5)","timestamp":"2025-03-21T02:14:27.039Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T02:15:33.442Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T02:15:33.465Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T02:15:33.474Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T02:15:33.476Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T02:15:33.922Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=content","service":"search-service","timestamp":"2025-03-21T02:15:40.300Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T02:15:40.301Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T02:15:40.302Z"}
+{"level":"info","message":"New search post created: {\n  postId: '67dccbf3add069dad82409f3',\n  userId: '67d9bef46c9708f48dc1341f',\n  content: 'fox',\n  createdAt: 2025-03-21T02:16:19.180Z,\n  _id: new ObjectId('67dccbf3f576175474c65fe9'),\n  updatedAt: 2025-03-21T02:16:19.180Z,\n  __v: 0\n}","service":"search-service","timestamp":"2025-03-21T02:16:19.322Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=fox","service":"search-service","timestamp":"2025-03-21T02:16:29.875Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T02:16:29.875Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T02:16:29.876Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=fox2","service":"search-service","timestamp":"2025-03-21T02:24:07.036Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T02:24:07.039Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T02:24:07.039Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=fox","service":"search-service","timestamp":"2025-03-21T02:24:10.864Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T02:24:10.864Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T02:24:10.865Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=fo","service":"search-service","timestamp":"2025-03-21T02:24:14.444Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T02:24:14.445Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T02:24:14.445Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=fox","service":"search-service","timestamp":"2025-03-21T02:24:25.677Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T02:24:25.677Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T02:24:25.677Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T02:24:32.585Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T02:24:32.586Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T02:24:32.586Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=content","service":"search-service","timestamp":"2025-03-21T02:24:41.274Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T02:24:41.275Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T02:24:41.276Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some%20content","service":"search-service","timestamp":"2025-03-21T02:25:11.302Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T02:25:11.303Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T02:25:11.303Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T02:29:06.844Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T02:29:06.846Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T02:29:06.847Z"}
+{"level":"info","message":"New search post created: {\n  postId: '67dccf06add069dad82409f7',\n  userId: '67d9bef46c9708f48dc1341f',\n  content: 'some2',\n  createdAt: 2025-03-21T02:29:26.414Z,\n  _id: new ObjectId('67dccf06f576175474c65ff4'),\n  updatedAt: 2025-03-21T02:29:26.414Z,\n  __v: 0\n}","service":"search-service","timestamp":"2025-03-21T02:29:26.555Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T02:29:30.461Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T02:29:30.464Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T02:29:30.464Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T02:34:11.807Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T02:34:11.809Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T02:34:11.809Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T02:35:22.270Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T02:35:22.364Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T02:35:22.372Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T02:35:22.373Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T02:35:22.777Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T02:35:29.056Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T02:35:29.057Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T02:35:29.057Z"}
+{"$clusterTime":{"clusterTime":{"$timestamp":"7484085864532803587"},"signature":{"hash":"AfOrgiXcrW7kIgOXzHdHWS/VgWw=","keyId":{"high":1734019773,"low":15,"unsigned":false}}},"code":2,"codeName":"BadValue","errorLabelSet":{},"errorResponse":{"$clusterTime":{"clusterTime":{"$timestamp":"7484085864532803587"},"signature":{"hash":"AfOrgiXcrW7kIgOXzHdHWS/VgWw=","keyId":{"high":1734019773,"low":15,"unsigned":false}}},"code":2,"codeName":"BadValue","errmsg":"unknown top level operator: $content. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.","ok":0,"operationTime":{"$timestamp":"7484085864532803586"}},"level":"error","message":"Error searching for posts unknown top level operator: $content. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.","ok":0,"operationTime":{"$timestamp":"7484085864532803586"},"service":"search-service","stack":"MongoServerError: unknown top level operator: $content. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.\n    at Connection.sendCommand (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cmap/connection.js:299:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Connection.command (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cmap/connection.js:327:26)\n    at async Server.command (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/sdam/server.js:168:29)\n    at async FindOperation.execute (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/operations/find.js:36:16)\n    at async tryOperation (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async FindCursor._initialize (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)\n    at async FindCursor.cursorInit (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)\n    at async FindCursor.fetchBatch (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)","timestamp":"2025-03-21T02:35:29.109Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T02:40:06.188Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T02:40:06.251Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T02:40:06.307Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T02:40:06.309Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T02:40:06.717Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T02:40:11.633Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T02:40:11.634Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T02:40:11.634Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T03:05:47.994Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T03:05:48.091Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T03:05:48.172Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T03:05:48.184Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T03:05:48.477Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T03:06:05.939Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T03:06:05.940Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T03:06:05.941Z"}
+{"$clusterTime":{"clusterTime":{"$timestamp":"7484093754387726338"},"signature":{"hash":"NrSeS90oEUMRHlZJ9OGRefHDRxs=","keyId":{"high":1734019773,"low":15,"unsigned":false}}},"code":2,"codeName":"BadValue","errorLabelSet":{},"errorResponse":{"$clusterTime":{"clusterTime":{"$timestamp":"7484093754387726338"},"signature":{"hash":"NrSeS90oEUMRHlZJ9OGRefHDRxs=","keyId":{"high":1734019773,"low":15,"unsigned":false}}},"code":2,"codeName":"BadValue","errmsg":"unknown operator: $meta","ok":0,"operationTime":{"$timestamp":"7484093754387726338"}},"level":"error","message":"Error searching for posts unknown operator: $meta","ok":0,"operationTime":{"$timestamp":"7484093754387726338"},"service":"search-service","stack":"MongoServerError: unknown operator: $meta\n    at Connection.sendCommand (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cmap/connection.js:299:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Connection.command (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cmap/connection.js:327:26)\n    at async Server.command (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/sdam/server.js:168:29)\n    at async FindOperation.execute (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/operations/find.js:36:16)\n    at async tryOperation (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async FindCursor._initialize (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)\n    at async FindCursor.cursorInit (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)\n    at async FindCursor.fetchBatch (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)","timestamp":"2025-03-21T03:06:05.996Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T03:06:57.537Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T03:06:57.553Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T03:06:57.558Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T03:06:57.559Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T03:06:57.951Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T03:07:02.018Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T03:07:02.019Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T03:07:02.019Z"}
+{"$clusterTime":{"clusterTime":{"$timestamp":"7484093990610927631"},"signature":{"hash":"/jux7tmLNWrLIExAqu9hs7GQ+Sc=","keyId":{"high":1734019773,"low":15,"unsigned":false}}},"code":2,"codeName":"BadValue","errorLabelSet":{},"errorResponse":{"$clusterTime":{"clusterTime":{"$timestamp":"7484093990610927631"},"signature":{"hash":"/jux7tmLNWrLIExAqu9hs7GQ+Sc=","keyId":{"high":1734019773,"low":15,"unsigned":false}}},"code":2,"codeName":"BadValue","errmsg":"unknown operator: $meta","ok":0,"operationTime":{"$timestamp":"7484093990610927631"}},"level":"error","message":"Error searching for posts unknown operator: $meta","ok":0,"operationTime":{"$timestamp":"7484093990610927631"},"service":"search-service","stack":"MongoServerError: unknown operator: $meta\n    at Connection.sendCommand (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cmap/connection.js:299:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Connection.command (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cmap/connection.js:327:26)\n    at async Server.command (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/sdam/server.js:168:29)\n    at async FindOperation.execute (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/operations/find.js:36:16)\n    at async tryOperation (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async FindCursor._initialize (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)\n    at async FindCursor.cursorInit (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)\n    at async FindCursor.fetchBatch (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)","timestamp":"2025-03-21T03:07:02.061Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T03:07:34.349Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T03:07:34.450Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T03:07:34.620Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T03:07:34.640Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T03:07:35.005Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T03:07:38.769Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T03:07:38.770Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T03:07:38.770Z"}
+{"$clusterTime":{"clusterTime":{"$timestamp":"7484094149524717583"},"signature":{"hash":"SOOPLGnGc/hU6XycDcFky1itZBc=","keyId":{"high":1734019773,"low":15,"unsigned":false}}},"code":2,"codeName":"BadValue","errorLabelSet":{},"errorResponse":{"$clusterTime":{"clusterTime":{"$timestamp":"7484094149524717583"},"signature":{"hash":"SOOPLGnGc/hU6XycDcFky1itZBc=","keyId":{"high":1734019773,"low":15,"unsigned":false}}},"code":2,"codeName":"BadValue","errmsg":"unknown operator: $meta","ok":0,"operationTime":{"$timestamp":"7484094149524717583"}},"level":"error","message":"Error searching for posts unknown operator: $meta","ok":0,"operationTime":{"$timestamp":"7484094149524717583"},"service":"search-service","stack":"MongoServerError: unknown operator: $meta\n    at Connection.sendCommand (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cmap/connection.js:299:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Connection.command (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cmap/connection.js:327:26)\n    at async Server.command (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/sdam/server.js:168:29)\n    at async FindOperation.execute (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/operations/find.js:36:16)\n    at async tryOperation (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async FindCursor._initialize (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)\n    at async FindCursor.cursorInit (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)\n    at async FindCursor.fetchBatch (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)","timestamp":"2025-03-21T03:07:38.812Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T03:08:20.792Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T03:08:20.830Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T03:08:20.834Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T03:08:20.835Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T03:08:21.193Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T03:08:27.148Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T03:08:27.149Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T03:08:27.151Z"}
+{"$clusterTime":{"clusterTime":{"$timestamp":"7484094355683147791"},"signature":{"hash":"lGefrrOQGyv22D2YJGHuJfHmHRE=","keyId":{"high":1734019773,"low":15,"unsigned":false}}},"code":40218,"codeName":"Location40218","errorLabelSet":{},"errorResponse":{"$clusterTime":{"clusterTime":{"$timestamp":"7484094355683147791"},"signature":{"hash":"lGefrrOQGyv22D2YJGHuJfHmHRE=","keyId":{"high":1734019773,"low":15,"unsigned":false}}},"code":40218,"codeName":"Location40218","errmsg":"query requires text score metadata, but it is not available","ok":0,"operationTime":{"$timestamp":"7484094355683147791"}},"level":"error","message":"Error searching for posts query requires text score metadata, but it is not available","ok":0,"operationTime":{"$timestamp":"7484094355683147791"},"service":"search-service","stack":"MongoServerError: query requires text score metadata, but it is not available\n    at Connection.sendCommand (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cmap/connection.js:299:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Connection.command (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cmap/connection.js:327:26)\n    at async Server.command (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/sdam/server.js:168:29)\n    at async FindOperation.execute (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/operations/find.js:36:16)\n    at async tryOperation (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async FindCursor._initialize (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)\n    at async FindCursor.cursorInit (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)\n    at async FindCursor.fetchBatch (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)","timestamp":"2025-03-21T03:08:27.202Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T03:08:58.155Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T03:08:58.183Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T03:08:58.193Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T03:08:58.194Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T03:08:58.618Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T03:10:31.179Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T03:10:31.193Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T03:10:31.199Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T03:10:31.200Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T03:10:31.702Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T03:10:36.646Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T03:10:36.646Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T03:10:36.646Z"}
+{"$clusterTime":{"clusterTime":{"$timestamp":"7484094914028896275"},"signature":{"hash":"HUkBqg/Xmd/90O/MhQ9aXLcAYGA=","keyId":{"high":1734019773,"low":15,"unsigned":false}}},"code":2,"codeName":"BadValue","errorLabelSet":{},"errorResponse":{"$clusterTime":{"clusterTime":{"$timestamp":"7484094914028896275"},"signature":{"hash":"HUkBqg/Xmd/90O/MhQ9aXLcAYGA=","keyId":{"high":1734019773,"low":15,"unsigned":false}}},"code":2,"codeName":"BadValue","errmsg":"unknown operator: $meta","ok":0,"operationTime":{"$timestamp":"7484094914028896275"}},"level":"error","message":"Error searching for posts unknown operator: $meta","ok":0,"operationTime":{"$timestamp":"7484094914028896275"},"service":"search-service","stack":"MongoServerError: unknown operator: $meta\n    at Connection.sendCommand (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cmap/connection.js:299:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Connection.command (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cmap/connection.js:327:26)\n    at async Server.command (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/sdam/server.js:168:29)\n    at async FindOperation.execute (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/operations/find.js:36:16)\n    at async tryOperation (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async FindCursor._initialize (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)\n    at async FindCursor.cursorInit (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)\n    at async FindCursor.fetchBatch (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)","timestamp":"2025-03-21T03:10:36.689Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T03:10:55.891Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T03:10:55.902Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T03:10:55.905Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T03:10:55.906Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T03:10:56.517Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T03:10:59.733Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T03:10:59.733Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T03:10:59.734Z"}
+{"$clusterTime":{"clusterTime":{"$timestamp":"7484095012813144075"},"signature":{"hash":"4LMwpzOWTo0h4k48gJKAnvJ4NnM=","keyId":{"high":1734019773,"low":15,"unsigned":false}}},"code":291,"codeName":"NoQueryExecutionPlans","errorLabelSet":{},"errorResponse":{"$clusterTime":{"clusterTime":{"$timestamp":"7484095012813144075"},"signature":{"hash":"4LMwpzOWTo0h4k48gJKAnvJ4NnM=","keyId":{"high":1734019773,"low":15,"unsigned":false}}},"code":291,"codeName":"NoQueryExecutionPlans","errmsg":"error processing query: ns=social-media-microservices.searches limit=10Tree: $or\n    content regex /some/i\n    TEXT : query=some, language=english, caseSensitive=0, diacriticSensitive=0\nSort: {}\nProj: {}\n planner returned error :: caused by :: Failed to produce a solution for TEXT under OR - other non-TEXT clauses under OR have to be indexed as well.","ok":0,"operationTime":{"$timestamp":"7484095012813144075"}},"level":"error","message":"Error searching for posts error processing query: ns=social-media-microservices.searches limit=10Tree: $or\n    content regex /some/i\n    TEXT : query=some, language=english, caseSensitive=0, diacriticSensitive=0\nSort: {}\nProj: {}\n planner returned error :: caused by :: Failed to produce a solution for TEXT under OR - other non-TEXT clauses under OR have to be indexed as well.","ok":0,"operationTime":{"$timestamp":"7484095012813144075"},"service":"search-service","stack":"MongoServerError: error processing query: ns=social-media-microservices.searches limit=10Tree: $or\n    content regex /some/i\n    TEXT : query=some, language=english, caseSensitive=0, diacriticSensitive=0\nSort: {}\nProj: {}\n planner returned error :: caused by :: Failed to produce a solution for TEXT under OR - other non-TEXT clauses under OR have to be indexed as well.\n    at Connection.sendCommand (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cmap/connection.js:299:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Connection.command (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cmap/connection.js:327:26)\n    at async Server.command (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/sdam/server.js:168:29)\n    at async FindOperation.execute (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/operations/find.js:36:16)\n    at async tryOperation (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async FindCursor._initialize (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)\n    at async FindCursor.cursorInit (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)\n    at async FindCursor.fetchBatch (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)","timestamp":"2025-03-21T03:10:59.778Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T03:11:12.629Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T03:11:12.636Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T03:11:12.641Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T03:11:12.642Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T03:11:13.127Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T03:11:16.288Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T03:11:16.289Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T03:11:16.291Z"}
+{"$clusterTime":{"clusterTime":{"$timestamp":"7484095085827588101"},"signature":{"hash":"BvP8Eiu+ZQvSM/facvUgFvMs8Nw=","keyId":{"high":1734019773,"low":15,"unsigned":false}}},"code":291,"codeName":"NoQueryExecutionPlans","errorLabelSet":{},"errorResponse":{"$clusterTime":{"clusterTime":{"$timestamp":"7484095085827588101"},"signature":{"hash":"BvP8Eiu+ZQvSM/facvUgFvMs8Nw=","keyId":{"high":1734019773,"low":15,"unsigned":false}}},"code":291,"codeName":"NoQueryExecutionPlans","errmsg":"error processing query: ns=social-media-microservices.searches limit=10Tree: $or\n    content regex /some/i\n    TEXT : query=some, language=english, caseSensitive=0, diacriticSensitive=0\nSort: {}\nProj: {}\n planner returned error :: caused by :: Failed to produce a solution for TEXT under OR - other non-TEXT clauses under OR have to be indexed as well.","ok":0,"operationTime":{"$timestamp":"7484095085827588101"}},"level":"error","message":"Error searching for posts error processing query: ns=social-media-microservices.searches limit=10Tree: $or\n    content regex /some/i\n    TEXT : query=some, language=english, caseSensitive=0, diacriticSensitive=0\nSort: {}\nProj: {}\n planner returned error :: caused by :: Failed to produce a solution for TEXT under OR - other non-TEXT clauses under OR have to be indexed as well.","ok":0,"operationTime":{"$timestamp":"7484095085827588101"},"service":"search-service","stack":"MongoServerError: error processing query: ns=social-media-microservices.searches limit=10Tree: $or\n    content regex /some/i\n    TEXT : query=some, language=english, caseSensitive=0, diacriticSensitive=0\nSort: {}\nProj: {}\n planner returned error :: caused by :: Failed to produce a solution for TEXT under OR - other non-TEXT clauses under OR have to be indexed as well.\n    at Connection.sendCommand (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cmap/connection.js:299:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Connection.command (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cmap/connection.js:327:26)\n    at async Server.command (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/sdam/server.js:168:29)\n    at async FindOperation.execute (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/operations/find.js:36:16)\n    at async tryOperation (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async FindCursor._initialize (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)\n    at async FindCursor.cursorInit (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)\n    at async FindCursor.fetchBatch (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)","timestamp":"2025-03-21T03:11:16.344Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T03:12:27.359Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T03:12:27.401Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T03:12:27.409Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T03:12:27.411Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T03:12:27.908Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T03:12:31.886Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T03:12:31.887Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T03:12:31.887Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T03:13:10.723Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T03:13:10.728Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T03:13:10.731Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T03:13:10.731Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T03:13:11.130Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T03:13:13.168Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T03:13:13.168Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T03:13:13.168Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T03:23:48.043Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T03:23:48.078Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T03:23:48.083Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T03:23:48.085Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T03:23:48.556Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=on","service":"search-service","timestamp":"2025-03-21T15:49:06.569Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T15:49:06.587Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T15:49:06.588Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=ox","service":"search-service","timestamp":"2025-03-21T15:49:24.382Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T15:49:24.383Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T15:49:24.389Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T15:53:36.856Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T15:53:36.885Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T15:53:36.896Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T15:53:36.898Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T15:53:37.272Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T15:54:35.083Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T15:54:35.113Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T15:54:35.127Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T15:54:35.130Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T15:54:35.455Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T15:56:21.241Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T15:56:21.291Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T15:56:21.307Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T15:56:21.312Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T15:56:21.696Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=ox","service":"search-service","timestamp":"2025-03-21T15:56:39.906Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T15:56:39.910Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T15:56:39.923Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=ox","service":"search-service","timestamp":"2025-03-21T15:56:47.876Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T15:56:47.884Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T15:56:47.889Z"}
+{"level":"info","message":"Search posts fetched from cache","service":"search-service","timestamp":"2025-03-21T15:56:47.900Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=ox","service":"search-service","timestamp":"2025-03-21T15:57:02.842Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T15:57:02.856Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T15:57:02.861Z"}
+{"level":"info","message":"Search posts fetched from cache","service":"search-service","timestamp":"2025-03-21T15:57:02.899Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T15:57:12.905Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T15:57:12.908Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T15:57:12.909Z"}
+{"level":"info","message":"Search posts fetched from cache","service":"search-service","timestamp":"2025-03-21T15:57:12.914Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T15:57:26.561Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T15:57:26.574Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T15:57:26.577Z"}
+{"level":"info","message":"Search posts fetched from cache","service":"search-service","timestamp":"2025-03-21T15:57:26.592Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T15:59:09.899Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T15:59:10.091Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T15:59:10.153Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T15:59:10.171Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T15:59:10.192Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T15:59:24.376Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T15:59:24.383Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T15:59:24.389Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T15:59:58.634Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T15:59:58.899Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T15:59:58.907Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T15:59:58.917Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T15:59:58.945Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T16:00:03.840Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T16:00:03.841Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T16:00:03.845Z"}
+{"level":"info","message":"Search posts fetched from cache","service":"search-service","timestamp":"2025-03-21T16:00:03.911Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=som","service":"search-service","timestamp":"2025-03-21T16:00:18.907Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T16:00:18.920Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T16:00:18.938Z"}
+{"level":"info","message":"Search posts fetched from cache","service":"search-service","timestamp":"2025-03-21T16:00:18.965Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=fox","service":"search-service","timestamp":"2025-03-21T16:00:33.629Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T16:00:33.631Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T16:00:33.633Z"}
+{"level":"info","message":"Search posts fetched from cache","service":"search-service","timestamp":"2025-03-21T16:00:33.637Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T16:03:58.275Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T16:03:58.325Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T16:03:58.337Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T16:03:58.341Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T16:03:58.703Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=fox","service":"search-service","timestamp":"2025-03-21T16:04:13.832Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T16:04:13.833Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T16:04:13.835Z"}
+{"level":"info","message":"Search posts fetched from database","service":"search-service","timestamp":"2025-03-21T16:04:13.893Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T16:04:23.370Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T16:04:23.370Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T16:04:23.371Z"}
+{"level":"info","message":"Search posts fetched from database","service":"search-service","timestamp":"2025-03-21T16:04:23.434Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T16:04:27.998Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T16:04:28.002Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T16:04:28.004Z"}
+{"level":"info","message":"Search posts fetched from cache","service":"search-service","timestamp":"2025-03-21T16:04:28.008Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T16:12:27.854Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T16:12:28.044Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T16:12:28.070Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T16:12:28.074Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T16:12:28.106Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T16:12:54.168Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T16:12:54.303Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T16:12:54.588Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T16:12:54.724Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T16:12:54.725Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T16:17:55.315Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T16:17:55.398Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T16:17:55.416Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T16:17:55.425Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T16:17:55.982Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T16:22:46.603Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T16:22:46.842Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T16:22:47.113Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T16:22:47.193Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T16:22:47.252Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T16:23:57.097Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T16:23:57.336Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T16:23:57.517Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T16:23:57.549Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T16:23:57.554Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T16:32:59.501Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T16:32:59.507Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T16:32:59.510Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T16:32:59.511Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T16:32:59.942Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T16:33:54.389Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T16:33:54.390Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T16:33:54.391Z"}
+{"level":"info","message":"Search posts fetched from database","service":"search-service","timestamp":"2025-03-21T16:33:54.438Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T16:34:02.030Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T16:34:02.030Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T16:34:02.031Z"}
+{"level":"info","message":"Search posts fetched from cache","service":"search-service","timestamp":"2025-03-21T16:34:02.035Z"}
+{"level":"info","message":"New search post created: {\n  postId: '67dd950c231d344ca2a912a0',\n  userId: '67d9bef46c9708f48dc1341f',\n  content: 'some2',\n  createdAt: 2025-03-21T16:34:20.175Z,\n  _id: new ObjectId('67dd950cf257c2e860e1ecbc'),\n  updatedAt: 2025-03-21T16:34:20.175Z,\n  __v: 0\n}","service":"search-service","timestamp":"2025-03-21T16:34:20.280Z"}
+{"level":"error","message":"Error handling creation event for posts req is not defined","service":"search-service","stack":"ReferenceError: req is not defined\n    at invalidatePostCache (file:///Users/ogoncharenko/Projects/social-media-microservices/search-service/src/eventHandlers/searchEventHandler.js:6:3)\n    at searchEventHandler (file:///Users/ogoncharenko/Projects/social-media-microservices/search-service/src/eventHandlers/searchEventHandler.js:23:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-03-21T16:34:20.281Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T16:37:36.362Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T16:37:43.705Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T16:38:18.413Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T16:38:18.420Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T16:38:18.451Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T16:38:18.452Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T16:38:18.876Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T16:40:23.388Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T16:40:23.443Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T16:40:23.450Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T16:40:23.451Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T16:40:23.900Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T16:41:21.438Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T16:41:21.454Z"}
+{"_message":"Search validation failed","errors":{"content":{"kind":"required","message":"Path `content` is required.","name":"ValidatorError","path":"content","properties":{"message":"Path `content` is required.","path":"content","type":"required"}},"createdAt":{"kind":"required","message":"Path `createdAt` is required.","name":"ValidatorError","path":"createdAt","properties":{"message":"Path `createdAt` is required.","path":"createdAt","type":"required"}},"postId":{"kind":"required","message":"Path `postId` is required.","name":"ValidatorError","path":"postId","properties":{"message":"Path `postId` is required.","path":"postId","type":"required"}},"userId":{"kind":"required","message":"Path `userId` is required.","name":"ValidatorError","path":"userId","properties":{"message":"Path `userId` is required.","path":"userId","type":"required"}}},"level":"error","message":"Error handling creation event for posts Search validation failed: postId: Path `postId` is required., userId: Path `userId` is required., content: Path `content` is required., createdAt: Path `createdAt` is required.","service":"search-service","stack":"ValidationError: Search validation failed: postId: Path `postId` is required., userId: Path `userId` is required., content: Path `content` is required., createdAt: Path `createdAt` is required.\n    at Document.invalidate (/Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongoose/lib/document.js:3329:32)\n    at /Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongoose/lib/document.js:3090:17\n    at /Users/ogoncharenko/Projects/social-media-microservices/search-service/node_modules/mongoose/lib/schemaType.js:1407:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-03-21T16:41:21.463Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T16:41:21.471Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T16:41:21.473Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T16:41:21.930Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T16:42:05.691Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T16:42:05.698Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T16:42:05.704Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T16:42:05.705Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T16:42:06.138Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T16:42:55.897Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T16:42:55.940Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T16:42:55.949Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T16:42:55.951Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T16:42:56.339Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T16:46:56.251Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T16:46:56.271Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T16:46:56.281Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T16:46:56.282Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T16:46:56.664Z"}
+{"level":"info","message":"New search post created: {\n  postId: '67dd9805231d344ca2a912a2',\n  userId: '67d9bef46c9708f48dc1341f',\n  content: 'some2',\n  createdAt: 2025-03-21T16:47:01.519Z,\n  _id: new ObjectId('67dd980552cb521cf472295e'),\n  updatedAt: 2025-03-21T16:47:01.519Z,\n  __v: 0\n}","service":"search-service","timestamp":"2025-03-21T16:47:01.644Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T16:47:14.385Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T16:47:14.387Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T16:47:14.388Z"}
+{"level":"info","message":"Search posts fetched from database","service":"search-service","timestamp":"2025-03-21T16:47:14.564Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T16:47:16.712Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T16:47:16.713Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T16:47:16.713Z"}
+{"level":"info","message":"Search posts fetched from cache","service":"search-service","timestamp":"2025-03-21T16:47:16.714Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T20:27:21.289Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T20:27:21.306Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T20:27:21.349Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T20:27:21.351Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T20:27:21.803Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T20:27:44.087Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T20:27:44.088Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T20:27:44.088Z"}
+{"level":"info","message":"Search posts fetched from database","service":"search-service","timestamp":"2025-03-21T20:27:44.136Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T20:28:13.142Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T20:28:13.143Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T20:28:13.144Z"}
+{"level":"info","message":"Search posts fetched from cache","service":"search-service","timestamp":"2025-03-21T20:28:13.146Z"}
+{"level":"info","message":"New search post created: {\n  postId: '67ddcbe1231d344ca2a912a6',\n  userId: '67d9bef46c9708f48dc1341f',\n  content: 'some2',\n  createdAt: 2025-03-21T20:28:17.079Z,\n  _id: new ObjectId('67ddcbe1358d5b2ef4ded40f'),\n  updatedAt: 2025-03-21T20:28:17.079Z,\n  __v: 0\n}","service":"search-service","timestamp":"2025-03-21T20:28:17.197Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T20:28:28.157Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T20:28:28.158Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T20:28:28.158Z"}
+{"level":"info","message":"Search posts fetched from cache","service":"search-service","timestamp":"2025-03-21T20:28:28.160Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T20:28:31.839Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T20:28:31.840Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T20:28:31.840Z"}
+{"level":"info","message":"Search posts fetched from cache","service":"search-service","timestamp":"2025-03-21T20:28:31.843Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T20:28:54.845Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T20:28:54.846Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T20:28:54.846Z"}
+{"level":"info","message":"Search posts fetched from cache","service":"search-service","timestamp":"2025-03-21T20:28:54.856Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-03-21T20:29:28.472Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.deleted","service":"search-service","timestamp":"2025-03-21T20:29:28.477Z"}
+{"level":"info","message":"Consuming events from RabbitMQ","queue":"post.created","service":"search-service","timestamp":"2025-03-21T20:29:28.479Z"}
+{"level":"info","message":"Search service started on port 3006","service":"search-service","timestamp":"2025-03-21T20:29:28.480Z"}
+{"level":"info","message":"Connected to database","service":"search-service","timestamp":"2025-03-21T20:29:28.970Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T20:29:30.410Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T20:29:30.410Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T20:29:30.411Z"}
+{"level":"info","message":"Search posts fetched from cache","service":"search-service","timestamp":"2025-03-21T20:29:30.413Z"}
+{"level":"info","message":"New search post created: {\n  postId: '67ddcc33231d344ca2a912a8',\n  userId: '67d9bef46c9708f48dc1341f',\n  content: 'some2',\n  createdAt: 2025-03-21T20:29:39.796Z,\n  _id: new ObjectId('67ddcc336139a2c613f53174'),\n  updatedAt: 2025-03-21T20:29:39.796Z,\n  __v: 0\n}","service":"search-service","timestamp":"2025-03-21T20:29:39.918Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T20:29:52.819Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T20:29:52.820Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T20:29:52.820Z"}
+{"level":"info","message":"Search posts fetched from database","service":"search-service","timestamp":"2025-03-21T20:29:52.871Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T20:29:57.633Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T20:29:57.634Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T20:29:57.634Z"}
+{"level":"info","message":"Search posts fetched from cache","service":"search-service","timestamp":"2025-03-21T20:29:57.635Z"}
+{"level":"info","message":"New search post created: {\n  postId: '67ddcc4d231d344ca2a912aa',\n  userId: '67d9bef46c9708f48dc1341f',\n  content: 'some2',\n  createdAt: 2025-03-21T20:30:05.435Z,\n  _id: new ObjectId('67ddcc4d6139a2c613f53177'),\n  updatedAt: 2025-03-21T20:30:05.435Z,\n  __v: 0\n}","service":"search-service","timestamp":"2025-03-21T20:30:05.570Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T20:30:10.746Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T20:30:10.746Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T20:30:10.746Z"}
+{"level":"info","message":"Search posts fetched from database","service":"search-service","timestamp":"2025-03-21T20:30:10.785Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=some","service":"search-service","timestamp":"2025-03-21T20:30:12.798Z"}
+{"level":"info","message":"Request body: {}","service":"search-service","timestamp":"2025-03-21T20:30:12.798Z"}
+{"level":"info","message":"Searching for posts","service":"search-service","timestamp":"2025-03-21T20:30:12.798Z"}
+{"level":"info","message":"Search posts fetched from cache","service":"search-service","timestamp":"2025-03-21T20:30:12.798Z"}
