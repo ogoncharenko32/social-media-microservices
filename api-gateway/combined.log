@@ -897,3 +897,9 @@
 {"level":"info","message":"Received GET request to /v1/search/posts?query=some","service":"api-gateway","timestamp":"2025-03-21T20:30:12.796Z"}
 {"level":"info","message":"Request body: {}","service":"api-gateway","timestamp":"2025-03-21T20:30:12.796Z"}
 {"level":"info","message":"Responce receivd from Search service: 200","service":"api-gateway","timestamp":"2025-03-21T20:30:12.799Z"}
+{"level":"info","message":"API Gateway started on port 3009","service":"api-gateway","timestamp":"2025-03-21T22:49:05.711Z"}
+{"level":"info","message":"Identity service started on port http://localhost:3010","service":"api-gateway","timestamp":"2025-03-21T22:49:05.712Z"}
+{"level":"info","message":"Post service started on port http://localhost:3008","service":"api-gateway","timestamp":"2025-03-21T22:49:05.712Z"}
+{"level":"info","message":"Media service started on port http://localhost:3007","service":"api-gateway","timestamp":"2025-03-21T22:49:05.712Z"}
+{"level":"info","message":"Search service started on port http://localhost:3006","service":"api-gateway","timestamp":"2025-03-21T22:49:05.712Z"}
+{"level":"info","message":"Redis URL redis://localhost:6379","service":"api-gateway","timestamp":"2025-03-21T22:49:05.712Z"}
